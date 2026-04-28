@@ -48,7 +48,7 @@ def ask_openai(prompt, max_tokens=500):
     
 
     response = client.chat.completions.create(
-        model= "~openai/gpt-mini-latest",
+        model="openai/gpt-4o-mini",
         messages=[
             {
                 "role": "user",
